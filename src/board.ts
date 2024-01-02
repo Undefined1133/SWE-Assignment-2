@@ -108,7 +108,7 @@ export class Board<T> {
 
                 this.notify({ kind: 'Match', match });
             });
-
+            console.log("MATCH :D")
             this.doRefill();
         }
     }
@@ -130,7 +130,6 @@ export class Board<T> {
                 this.board[row][col] = this.generator.next();
             }
         }
-        console.log(this.board)
 
         this.notify({ kind: 'Refill' });
     }
@@ -143,7 +142,6 @@ export class Board<T> {
 
         const checkMatch = (positions: Position[]): void => {
             const pieces = positions.map(pos => this.piece(pos));
-            console.log('Checking match:', { pieces, positions });
 
             const isMatch = pieces.every((piece, index) => index === 0 || (piece !== undefined && piece === pieces[0]));
 

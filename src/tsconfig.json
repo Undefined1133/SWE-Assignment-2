@@ -3,6 +3,23 @@
     "outDir": "../dist/",
     "sourceMap": true,
     "target": "ES2015",
-    "lib":["ES2015", "DOM"]
-  }
+    "lib":["ES2015", "DOM"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx"
+    ]
+  },
+
 }

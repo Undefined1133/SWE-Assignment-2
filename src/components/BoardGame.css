@@ -1,0 +1,10 @@
+/* Add this to your CSS file */
+.board-container {
+    display: grid;
+    gap: 5px; /* Adjust as needed */
+}
+/* Add this to your CSS file */
+.square-button {
+    width: 100%; /* Make buttons take up 100% of parent width */
+    padding-top: 100%; /* Set the height equal to the width */
+}

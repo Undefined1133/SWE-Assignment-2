@@ -1,0 +1,33 @@
+/* LoginCreateUser.css */
+
+.login-create-user-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.login-section,
+.create-user-section {
+    text-align: center;
+}
+
+.input-field {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+}
+
+.submit-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
